@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "northtone-commander"
+version = "0.1.0"
+description = "A minimal Norton Commander inspired two-panel terminal file manager for macOS."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "textual>=0.85.0",
+]
+
+[project.scripts]
+northtone = "northtone.app:main"
+
+[project.optional-dependencies]
+dev = [
+    "textual[dev]",
+    "pytest",
+    "build",
+    "pyinstaller",
+]
+
+[tool.setuptools.packages.find]
+include = ["northtone*"]
+
+[tool.setuptools.package-data]
+northtone = ["styles.tcss"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

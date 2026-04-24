@@ -1,0 +1,117 @@
+Screen {
+    background: #000080;
+    color: #f2f6ff;
+}
+
+#topbar {
+    height: 1;
+    background: #0012a0;
+    color: #ffffff;
+    content-align: center middle;
+    text-style: bold;
+}
+
+#panes {
+    height: 1fr;
+    layout: horizontal;
+}
+
+FilePanel {
+    width: 1fr;
+    height: 100%;
+    border: solid #2d5f9f;
+    background: #000060;
+}
+
+FilePanel.active {
+    border: heavy #f7fbff;
+    background: #001fb6;
+}
+
+#divider {
+    width: 1;
+    height: 100%;
+    background: #3d6ea6;
+}
+
+.panel-header {
+    height: 1;
+    background: #00184f;
+    color: #b5d2ff;
+    padding: 0 1;
+    text-style: bold;
+}
+
+FilePanel.active .panel-header {
+    background: #0a47d7;
+    color: #ffffff;
+}
+
+.file-list {
+    height: 1fr;
+}
+
+DataTable {
+    background: #000060;
+    color: #f2f6ff;
+}
+
+DataTable > .datatable--header {
+    background: #001e78;
+    color: #d4ecff;
+    text-style: bold;
+}
+
+DataTable > .datatable--cursor {
+    background: #21467d;
+    color: #e8f2ff;
+    text-style: bold;
+}
+
+FilePanel.active DataTable > .datatable--cursor {
+    background: #ffffff;
+    color: #00108f;
+}
+
+#footer {
+    height: 1;
+    background: #0012a0;
+    color: #ffffff;
+    text-style: bold;
+    padding: 0 1;
+}
+
+.dialog {
+    width: 70;
+    max-width: 95%;
+    height: auto;
+    border: heavy #d5ecff;
+    background: #00108f;
+    padding: 1;
+    align: center middle;
+}
+
+.dialog-title {
+    text-style: bold;
+    color: #ffffff;
+    margin-bottom: 1;
+}
+
+.dialog-body {
+    margin-bottom: 1;
+    color: #e5f2ff;
+}
+
+.dialog-input {
+    margin-bottom: 1;
+}
+
+.dialog-buttons {
+    height: auto;
+    layout: horizontal;
+    align-horizontal: right;
+}
+
+.dialog-buttons Button {
+    margin-left: 1;
+}
