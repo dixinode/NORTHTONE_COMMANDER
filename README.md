@@ -190,4 +190,4 @@ tests/
 
 ## License
 
-No license has been selected yet.
+MIT
