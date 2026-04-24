@@ -17,6 +17,7 @@ fi
   --name northtone \
   --clean \
   --onefile \
+  --add-data "northtone/styles.tcss:." \
   --add-data "northtone/styles.tcss:northtone" \
   northtone/app.py
 
