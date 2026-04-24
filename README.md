@@ -4,6 +4,16 @@
 
 It keeps the familiar commander workflow: left and right panels, keyboard-first navigation, function-key actions, fast copy/move/delete operations, and a blue terminal UI. Under the hood it is a modern Python + Textual application.
 
+## Screenshots
+
+### Two-panel file manager
+
+![NorthTone Commander two-panel file manager](assets/screenshots/main.png)
+
+### Copy operation
+
+![NorthTone Commander copy operation dialog](assets/screenshots/copy-dialog.png)
+
 ## Download
 
 The latest macOS build is available on the GitHub Releases page:
