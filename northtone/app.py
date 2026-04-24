@@ -112,7 +112,7 @@ class InputDialog(ModalScreen[Optional[str]]):
 class NorthToneApp(App[None]):
     """Main NorthTone Commander application."""
 
-    CSS_PATH = "styles.tcss"
+    CSS_PATH = Path(__file__).with_name("styles.tcss")
     TITLE = "NorthTone Commander"
 
     BINDINGS = [
