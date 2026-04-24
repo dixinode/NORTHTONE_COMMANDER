@@ -65,6 +65,12 @@ Create a standalone executable in `dist/northtone`:
 ./scripts/build_standalone_macos.sh
 ```
 
+Create a drag-and-drop DMG with `NorthTone Commander.app`:
+
+```bash
+./scripts/build_dmg_macos.sh
+```
+
 You can also double-click `NorthTone Commander.command` in Finder to run the app from this project folder.
 
 ## Test
